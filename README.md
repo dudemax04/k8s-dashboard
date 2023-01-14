@@ -6,7 +6,7 @@ Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters.
 To deploy Dashboard, execute following command:
 
 ```shell
-kubectl apply -f https://github.com/dudemax04/k8s-dashboard/blob/main/k8sdashboard.yaml
+kubectl apply -f https://raw.githubusercontent.com/dudemax04/k8s-dashboard/main/k8sdashboard.yaml
 ```
 ### Create Token
 
