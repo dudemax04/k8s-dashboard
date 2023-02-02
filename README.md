@@ -27,3 +27,14 @@ Now access Dashboard at:
 
 [`http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/`](
 http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/).
+
+You can also access the dashboard using **https://NodeIP:Port**. You can find the node IP and port using below commands:
+
+```shell
+kubectl get pod -n kubernetes-dashboard  -o wide
+kubectl get svc kubernetes-dashboard -n kubernetes-dashboard
+```
+
+**Here, I have used the port as 30001 in the code. You can modify the port as per your need.**
+
+![image](https://user-images.githubusercontent.com/70281465/216355787-9017d321-b8c5-4173-a8c1-483dd44860c5.png)
